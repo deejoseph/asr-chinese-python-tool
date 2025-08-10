@@ -23,3 +23,15 @@ A simple desktop tool for Chinese speech recognition and multi-format subtitle g
 
 ```bash
 pip install funasr modelscope ffmpeg-python
+```
+
+## Usage
+
+Run the Python script:
+
+```bash
+python main.py
+```
+Use the GUI to select an audio file and choose the output subtitle format.
+
+Click "Start Recognition and Generate Subtitles" and wait for the subtitle file to be generated.
