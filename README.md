@@ -21,8 +21,19 @@ A simple desktop tool for Chinese speech recognition and multi-format subtitle g
 
 ## Installation
 
+Creating an environment and install packages(anaconda for example):
 ```bash
-pip install funasr modelscope ffmpeg-python
+conda create -n funasr python=3.12
+
+conda activate funasr 
+
+conda install pytorch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 pytorch-cuda=11.8 -c pytorch -c nvidia # waiting (for a long time...)
+
+pip install -U funasr # waiting
+
+pip install -U modelscope huggingface_hub # waiting
+
+pip install -U ffmpeg-python # waiting
 ```
 
 ## Usage
@@ -59,8 +70,19 @@ python main.py
 
 ## 安装
 
+创建虚拟环境并安装库（例如anaconda）：
 ```bash
-pip install funasr modelscope ffmpeg-python
+conda create -n funasr python=3.12
+
+conda activate funasr 
+
+conda install pytorch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 pytorch-cuda=11.8 -c pytorch -c nvidia # 漫长等待
+
+pip install -U funasr # 等待
+
+pip install -U modelscope huggingface_hub # 等待
+
+pip install -U ffmpeg-python # 等待
 ```
 
 
